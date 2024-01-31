@@ -1,0 +1,23 @@
+{
+    "Acknowledgements": "TODO: whom you want to acknowledge",
+    "Authors": [
+        "TODO:",
+        "Caroline Koehler",
+        "Paul Kuntke",
+        "..."
+    ],
+    "BIDSVersion": "1.0.1",
+    "DatasetDOI": "TODO: eventually a DOI for the dataset",
+    "Funding": [
+        "European Leukodystrophy association Germany",
+        "GRANT #1",
+        "GRANT #2"
+    ],
+    "HowToAcknowledge": "TODO: describe how to acknowledge -- either cite a corresponding paper, or just in acknowledgement section",
+    "License": "TODO: choose a license, e.g. PDDL (http://opendatacommons.org/licenses/pddl/)",
+    "Name": "MRI data of pediatric patients with Pelizaeus Merzbacher Disease",
+    "ReferencesAndLinks": [
+        "TODO",
+        "List of papers or websites"
+    ]
+}
