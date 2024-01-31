@@ -1,0 +1,1 @@
+{"Name": "register session files on t1w image", "BIDSVersion": "1.4.0", "DatasetType": "derivative", "GeneratedBy": [{"caroline.koehler@ukdd.de": "co-register session images to T1-weighted image of the session"}]}
