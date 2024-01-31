@@ -1,4 +1,4 @@
-# hypomyelinating leukodystrophies
+# Atlas-based Assessment of Hypomyelination
 
 
 ## Description
