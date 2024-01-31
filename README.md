@@ -18,9 +18,9 @@ Choose a registration pipeline.
 3. 1_run_coreg_pmd_multimodal.ipynb
 
 ## evaluate best registration method for hypomyelinating leukodystrophies using structural similarity index (SSIM maps) 
-2_calculate_SSIM.ipybn
-3_get_atlas_values_ssim.py
-4_ssim_statistic.ipybn
+1. 2_calculate_SSIM.ipybn
+2. 3_get_atlas_values_ssim.py
+3. 4_ssim_statistic.ipybn
 
 ## Installation
 - Python 
