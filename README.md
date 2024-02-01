@@ -57,27 +57,27 @@ optional inputs:
 Download the repository. Install dependencies and FSL6 and ants registration.
 
 will register all avaliable BIDS datasets
-# set path for FSL, and ANTS package in the jupyter notebook
-os.environ["FSLDIR"] = "/opt/fsl/"
+## set path for FSL, and ANTS package in the jupyter notebook
+os.environ["FSLDIR"] = "/opt/fsl/"\
 os.environ['ANTSPATH']='/opt/conda/bin/'
 
-# set a subject-id and a session-id in the jupyter notebook
+## set a subject-id and a session-id in the jupyter notebook
 subject='PMD1'
 session='0m'
 
-# set optional input queries if other qMRI data should be registered
-'ad': dict(suffix='AD', session=session, extension='nii.gz', scope='derivatives', desc=None),
-'rd': dict(suffix='RD', session=session, extension='nii.gz', scope='derivatives', desc=None),
-'md': dict(suffix='MD', session=session, extension='nii.gz', scope='derivatives', desc=None),
-'spgr': dict(suffix='T1w', session=session, extension='nii.gz', acquisition='SPGR'),
-'mwf': dict(suffix='mwfmap', session=session, extension='nii.gz', scope='derivatives'),
-'mrt': dict(suffix='mrtmap', session=session, extension='nii.gz', scope='derivatives'),
-'qt1': dict(suffix='T1map', session=session, extension='nii.gz', scope='derivatives'),
-'qt2': dict(suffix='T2map', session=session, extension='nii.gz', scope='derivatives'),
+## set optional input queries if other qMRI data should be registered
+'ad': dict(suffix='AD', session=session, extension='nii.gz', scope='derivatives', desc=None), \
+'rd': dict(suffix='RD', session=session, extension='nii.gz', scope='derivatives', desc=None), \
+'md': dict(suffix='MD', session=session, extension='nii.gz', scope='derivatives', desc=None),\
+'spgr': dict(suffix='T1w', session=session, extension='nii.gz', acquisition='SPGR'),\
+'mwf': dict(suffix='mwfmap', session=session, extension='nii.gz', scope='derivatives'), \
+'mrt': dict(suffix='mrtmap', session=session, extension='nii.gz', scope='derivatives'),\
+'qt1': dict(suffix='T1map', session=session, extension='nii.gz', scope='derivatives'),\
+'qt2': dict(suffix='T2map', session=session, extension='nii.gz', scope='derivatives'),\
 
-# set ref_image_matcher providing the registration target as key and the corresponding maps as value or list of values
-ref_image_matcher={'b0': ['fa', 'ad','rd',md],
-                  'spgr': ['mwf', 'qt1','qt2','mrt']
+## set ref_image_matcher providing the registration target as key and the corresponding maps as value or list of values
+ref_image_matcher={'b0': ['fa', 'ad','rd',md],\
+                  'spgr': ['mwf', 'qt1','qt2','mrt']\
 }
 
 # run the jupyter notebook
